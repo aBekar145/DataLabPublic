@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DataLab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
+</head>
+
+<body>
+  <div class="page-wrap-frame">
+    <!--main-header-frame-->
+    <header class="main-header-frame">
+      <div class="main-header-frame__logo-frame">
+        <img src="../public/assets/images/logo-main.svg" class="main-header-frame__logo-frame-img" alt="logo">
+      </div>
+
+      <div class="main-header-frame__avatar">
+        <div сlass="main-header-frame__avatar-logo">
+          <img src="../public/assets/images/company-avatar.svg" alt="avatar"
+            class="main-header-frame__avatar-logo-icon">
+        </div>
+
+        <div class="main-header-frame__avatar-text">
+          <p class="main-header-frame__avatar-title">Garage food&coffee</p>
+          <a href="#" class="main-header-frame__settings">настройка рабочей области</a>
+        </div>
+      </div>
+    </header>
+    <!--main-header-frame END-->
+    <!--main-frame-->
+    <main class="main-frame">
+      <aside class="main-menu">
+        <div class="main-menu__block">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link main-menu__link--active"><img src="../public/assets/images/icon-1.svg"
+                  class="main-menu__item-icon" alt="icon-1">Управление данными</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-2.svg"
+                  class="main-menu__item-icon" alt="icon-2">Панель KPI</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-3.svg"
+                  class="main-menu__item-icon" alt="icon-3">RFM анализ</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-4.svg"
+                  class="main-menu__item-icon" alt="icon-4">Эффективность акций</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-5.svg"
+                  class="main-menu__item-icon" alt="icon-5">Рассылки</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="main-menu__accord">
+          <div class="accord">
+            <h3 class="accord__item-title">
+              <a href="#profile" class="accord__item-link">Команда
+                <img src="../public/assets/images/dropdown-icon-down.svg"
+                  class="accord__dropdown-icon-corner accord__dropdown-icon-corner--up" alt="icon-corner">
+              </a>
+            </h3>
+
+            <ul id="profile" class="accord__submenu">
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-1.png"
+                    class="accord__submenu-foto" alt="foto-1">Мария Вишневская</a>
+              </li>
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-2.png"
+                    class="accord__submenu-foto" alt="foto-2">Петр Елфимов</a>
+              </li>
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-3.png"
+                    class="accord__submenu-foto" alt="foto-3">Надежда Бабкина</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-menu__block-help">
+          <button class="main-menu__block-btn-help">Нужна помощь?</button>
+        </div>
+      </aside>
+
+      <section class="main-content">
+        <div class="main-content-inner">
+          <section class="panel-kpi-wrap--none panel-kpi-wrap">
+            <div class="panel-kpi">
+              <div class="panel-kpi__period">
+                <span class="panel-kpi__text">Выберете период:</span>
+                <button class="panel-kpi__btn-period">
+                  <img src="../public/assets/images/сalendar-icon.svg" class="panel-kpi__icon-calendar" alt="calendar">
+                  <span class="panel-kpi__date-start">Aug 1, 2016</span>
+                  <span class="panel-kpi__date-dash">-</span>
+                  <span class="panel-kpi__date-finish">Aug 13, 2016</span>
+                  <img src="../public/assets/images/dropdown-icon-down.svg" class="panel-kpi__icon-dropdown"
+                    alt="dropdown">
+                </button>
+                <div class="panel-kpi__checkbox">
+                  <input id="checkbox-1" class="panel-kpi__checkbox-input--checked panel-kpi__checkbox-input" checked
+                    type="checkbox" name="compare">
+                  <label for="checkbox-1" class="panel-kpi__checkbox-text">Сравнить</label>
+                </div>
+                <button class="panel-kpi__btn-period">
+                  <img src="../public/assets/images/сalendar-icon.svg" class="panel-kpi__icon-calendar" alt="calendar">
+                  <span class="panel-kpi__date-start">Aug 1, 2016</span>
+                  <span class="panel-kpi__date-dash">-</span>
+                  <span class="panel-kpi__date-finish">Aug 13, 2016</span>
+                  <img src="../public/assets/images/dropdown-icon-down.svg" class="panel-kpi__icon-dropdown"
+                    alt="dropdown">
+                </button>
+              </div>
+              <div class="panel-kpi__client-base">
+                <h2 class="panel-kpi__client-base-title">Размер клиентской базы: 1000</h2>
+                <div class="panel-kpi__analysis-block">
+                  <ul class="panel-kpi__analysis-list">
+                    <li class="panel-kpi__analysis-item">
+                      <div class="panel-kpi__kpi__analysis-img">
+                        <img src="../public/assets/images/icon-sell.png" class="panel-kpi__analysis-item-icon"
+                          alt="sell">
+                      </div>
+                      <div class="panel-kpi__analysis-item-info">
+                        <h3 class="panel-kpi__analysis-item-title">Общая сумма продаж</h3>
+                        <span class="panel-kpi__analysis-item-numeral">53,000</span>
+                        <span class="panel-kpi__analysis-item-period">За прошлый период:</span>
+                        <span class="panel-kpi__analysis-item-percent">+2,860 (15%)</span>
+                      </div>
+                    </li>
+                    <li class="panel-kpi__analysis-item">
+                      <div class="panel-kpi__kpi__analysis-img">
+                        <img src="../public/assets/images/icon-check.png" class="panel-kpi__analysis-item-icon"
+                          alt="checks">
+                      </div>
+                      <div class="panel-kpi__analysis-item-info">
+                        <h3 class="panel-kpi__analysis-item-title">Чеки за период</h3>
+                        <span class="panel-kpi__analysis-item-numeral">45,000</span>
+                        <span class="panel-kpi__analysis-item-period">За прошлый период:</span>
+                        <span class="panel-kpi__analysis-item-percent">+24,860 (35%)</span>
+                      </div>
+                    </li>
+                    <li class="panel-kpi__analysis-item">
+                      <div class="panel-kpi__kpi__analysis-img">
+                        <img src="../public/assets/images/icon-active-clients.png" class="panel-kpi__analysis-item-icon"
+                          alt="active clients">
+                      </div>
+                      <div class="panel-kpi__analysis-item-info">
+                        <h3 class="panel-kpi__analysis-item-title">Активные клиенты</h3>
+                        <span class="panel-kpi__analysis-item-numeral">100 (50%)</span>
+                        <span class="panel-kpi__analysis-item-period">За прошлый период:</span>
+                        <span class="panel-kpi__analysis-item-percent panel-kpi__analysis-item-percent--red">-20
+                          (5%)</span>
+                      </div>
+                    </li>
+                    <li class="panel-kpi__analysis-item">
+                      <div class="panel-kpi__kpi__analysis-img">
+                        <img src="../public/assets/images/icon-departed-clients.png"
+                          class="panel-kpi__analysis-item-icon" alt="departed clients">
+                      </div>
+                      <div class="panel-kpi__analysis-item-info">
+                        <h3 class="panel-kpi__analysis-item-title">Ушедшие клиенты</h3>
+                        <span class="panel-kpi__analysis-item-numeral">10 (15%)</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="panel-kpi-wrap">
+            <div class="panel-kpi">
+              <div class="panel-kpi__period">
+                <span class="panel-kpi__text">Выберете период:</span>
+                <button class="panel-kpi__btn-period">
+                  <img src="../public/assets/images/сalendar-icon.svg" class="panel-kpi__icon-calendar" alt="calendar">
+                  <span class="panel-kpi__date-start">Aug 1, 2016</span>
+                  <span class="panel-kpi__date-dash">-</span>
+                  <span class="panel-kpi__date-finish">Aug 13, 2016</span>
+                  <img src="../public/assets/images/dropdown-icon-down.svg" class="panel-kpi__icon-dropdown"
+                    alt="dropdown">
+                </button>
+                <div class="panel-kpi__checkbox">
+                  <input id="checkbox-2" class="panel-kpi__checkbox-input--checked panel-kpi__checkbox-input"
+                    type="checkbox" name="compare">
+                  <label for="checkbox-2" class="panel-kpi__checkbox-text">Сравнить</label>
+                </div>
+                <button class="panel-kpi__btn-period">
+                  <img src="../public/assets/images/сalendar-icon.svg" class="panel-kpi__icon-calendar" alt="calendar">
+                  <span class="panel-kpi__date-start">Aug 1, 2016</span>
+                  <span class="panel-kpi__date-dash">-</span>
+                  <span class="panel-kpi__date-finish">Aug 13, 2016</span>
+                  <img src="../public/assets/images/dropdown-icon-down.svg" class="panel-kpi__icon-dropdown"
+                    alt="dropdown">
+                </button>
+              </div>
+              <div class="panel-kpi__client-base">
+                <h2 class="panel-kpi__client-base-title">Размер клиентской базы: 1000</h2>
+                <div class="panel-kpi__analysis-block">
+                  <ul class="panel-kpi__analysis-list">
+                    <li class="panel-kpi__analysis-item">
+                      <div class="panel-kpi__kpi__analysis-img">
+                        <img src="../public/assets/images/icon-sell.png" class="panel-kpi__analysis-item-icon"
+                          alt="sell">
+                      </div>
+                      <div class="panel-kpi__analysis-item-info">
+                        <h3 class="panel-kpi__analysis-item-title">Общая сумма продаж</h3>
+                        <span
+                          class="panel-kpi__analysis-item-numeral--none panel-kpi__analysis-item-numeral">53,000</span>
+                        <span class="panel-kpi__analysis-item-period--none panel-kpi__analysis-item-period">За прошлый
+                          период:</span>
+                        <span class="panel-kpi__analysis-item-percent--none panel-kpi__analysis-item-percent">+2,860
+                          (15%)</span>
+                      </div>
+                    </li>
+                    <li class="panel-kpi__analysis-item">
+                      <div class="panel-kpi__kpi__analysis-img">
+                        <img src="../public/assets/images/icon-check.png" class="panel-kpi__analysis-item-icon"
+                          alt="checks">
+                      </div>
+                      <div class="panel-kpi__analysis-item-info">
+                        <h3 class="panel-kpi__analysis-item-title">Чеки за период</h3>
+                        <span
+                          class="panel-kpi__analysis-item-numeral--none panel-kpi__analysis-item-numeral">45,000</span>
+                        <span class="panel-kpi__analysis-item-period--none panel-kpi__analysis-item-period">За прошлый
+                          период:</span>
+                        <span class="panel-kpi__analysis-item-percent--none panel-kpi__analysis-item-percent">+24,860
+                          (35%)</span>
+                      </div>
+                    </li>
+                    <li class="panel-kpi__analysis-item">
+                      <div class="panel-kpi__kpi__analysis-img">
+                        <img src="../public/assets/images/icon-active-clients.png" class="panel-kpi__analysis-item-icon"
+                          alt="active clients">
+                      </div>
+                      <div class="panel-kpi__analysis-item-info">
+                        <h3 class="panel-kpi__analysis-item-title">Активные клиенты</h3>
+                        <span class="panel-kpi__analysis-item-numeral--none panel-kpi__analysis-item-numeral">100
+                          (50%)</span>
+                        <span class="panel-kpi__analysis-item-period--none panel-kpi__analysis-item-period">За прошлый
+                          период:</span>
+                        <span
+                          class="panel-kpi__analysis-item-percent--none panel-kpi__analysis-item-percent panel-kpi__analysis-item-percent--red">-20
+                          (5%)</span>
+                      </div>
+                    </li>
+                    <li class="panel-kpi__analysis-item">
+                      <div class="panel-kpi__kpi__analysis-img">
+                        <img src="../public/assets/images/icon-departed-clients.png"
+                          class="panel-kpi__analysis-item-icon" alt="departed clients">
+                      </div>
+                      <div class="panel-kpi__analysis-item-info">
+                        <h3 class="panel-kpi__analysis-item-title">Ушедшие клиенты</h3>
+                        <span class="panel-kpi__analysis-item-numeral--none panel-kpi__analysis-item-numeral">10
+                          (15%)</span>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="add-section">
+            <button class="add-section__btn">+ Добавить еще</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--main-frame END-->
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DataLab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
+</head>
+
+<body>
+  <div class="page-wrap-frame">
+    <!--main-header-frame-->
+    <header class="main-header-frame">
+      <div class="main-header-frame__logo-frame">
+        <img src="../public/assets/images/logo-main.svg" class="main-header-frame__logo-frame-img" alt="logo">
+      </div>
+
+      <div class="main-header-frame__avatar">
+        <div сlass="main-header-frame__avatar-logo">
+          <img src="../public/assets/images/company-avatar.svg" alt="avatar"
+            class="main-header-frame__avatar-logo-icon">
+        </div>
+
+        <div class="main-header-frame__avatar-text">
+          <p class="main-header-frame__avatar-title">Garage food&coffee</p>
+          <a href="#" class="main-header-frame__settings">настройка рабочей области</a>
+        </div>
+      </div>
+    </header>
+    <!--main-header-frame END-->
+    <!--main-frame-->
+    <main class="main-frame">
+      <aside class="main-menu">
+        <div class="main-menu__block">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-1-grey.svg"
+                  class="main-menu__item-icon" alt="icon-1">Управление данными</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-2.svg"
+                  class="main-menu__item-icon" alt="icon-2">Панель KPI</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-3.svg"
+                  class="main-menu__item-icon" alt="icon-3">RFM анализ</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-4.svg"
+                  class="main-menu__item-icon" alt="icon-4">Эффективность акций</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link main-menu__link--active"><img src="../public/assets/images/icon-5-red.svg"
+                  class="main-menu__item-icon" alt="icon-5">Рассылки</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="main-menu__accord">
+          <div class="accord">
+            <h3 class="accord__item-title">
+              <a href="#profile" class="accord__item-link">Команда
+                <img src="../public/assets/images/dropdown-icon-down.svg"
+                  class="accord__dropdown-icon-corner accord__dropdown-icon-corner--up" alt="icon-corner">
+              </a>
+            </h3>
+
+            <ul id="profile" class="accord__submenu">
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-1.png"
+                    class="accord__submenu-foto" alt="foto-1">Мария Вишневская</a>
+              </li>
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-2.png"
+                    class="accord__submenu-foto" alt="foto-2">Петр Елфимов</a>
+              </li>
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-3.png"
+                    class="accord__submenu-foto" alt="foto-3">Надежда Бабкина</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-menu__block-help">
+          <button class="main-menu__block-btn-help">Нужна помощь?</button>
+        </div>
+      </aside>
+
+      <section class="main-content">
+        <div class="main-content-inner">
+          
+          <section class="distributions-wrap">
+            <div class="distributions">
+              
+              <div class="distributions__save-block">
+                <div class="distributions__save-block-checkbox checkbox">
+                  <input id="checkbox-30" class="distributions__save-block-checkbox--checked distributions__save-block-checkbox-input checkbox-input"
+                    type="checkbox" name="compare">
+                  <label for="checkbox-30" class="distributions__save-block-checkbox-text checkbox-text"></label>
+                </div>
+                <div class="distributions__save-block-wrapper btn-wrapper">
+                  <button class="distributions__save-block-btn btn">Сохранить</button>
+                </div>
+              </div>
+
+              <form action="#" id="distributions-form-1" class="expect-form" method="GET">
+               
+                <div class="expect-form__choice-block">
+                  <div class="expect-form__checkbox checkbox">
+                    <input id="checkbox-31" class="expect-form__checkbox--checked expect-form__checkbox-input checkbox-input"
+                      type="checkbox" name="compare">
+                    <label for="checkbox-31" class="expect-form__checkbox-text checkbox-text"></label>
+                  </div>
+                  <div class="expect-form__period">
+                    <span class="expect-form__text">Выберите период:</span>
+                    <button class="expect-form__btn-period expect-form__btn-period--date">
+                      <img src="../public/assets/images/сalendar-icon.svg" class="expect-form__icon-calendar" alt="calendar"> 
+                      <span class="expect-form__date-start">Aug 1, 2016</span>
+                      <span class="expect-form__date-dash">-</span>
+                      <span class="expect-form__date-finish">Aug 13, 2016</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                  <div class="expect-form__choice-base">
+                    <span class="expect-form__choice-base-text">Выберите базу:</span>
+                    <button class="expect-form__choice-base-btn">
+                      <span class="expect-form__choice-base-btn-text">RFM_name</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__choice-base-icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                </div>
+
+                <div class="expect-form__amount">
+                  <div class="expect-form__amount-item expect-form__amount-item--first">
+                      <span class="expect-form__amount-item-text">Сумма продаж</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="1" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="2" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                  <div class="expect-form__amount-item">
+                      <span class="expect-form__amount-item-text">Средний чек</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="3" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="4" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                  <div class="expect-form__amount-item">
+                      <span class="expect-form__amount-item-text">Количество покупок</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="5" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="6" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                  <div class="expect-form__amount-item">
+                      <span class="expect-form__amount-item-text expect-form__amount-item-text--long">Количество дней без покупок</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="7" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="8" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                  <div class="expect-form__amount-item expect-form__amount-item--last">
+                      <span class="expect-form__amount-item-text">Время заказа</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="9" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="10" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                </div>
+
+                <div class="expect-form__select">
+                  <div class="expect-form__select-base">
+                    <span class="expect-form__select-base-text">Торговая точка</span>
+                    <button class="expect-form__select-base-btn">
+                      <span class="expect-form__select-base-btn-text">Выбрать...</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__select-base-icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                  <div class="expect-form__select-base">
+                    <span class="expect-form__select-base-text">Категория блюда</span>
+                    <button class="expect-form__select-base-btn">
+                      <span class="expect-form__select-base-btn-text">Выбрать...</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__select-base-icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                  <div class="expect-form__select-base">
+                    <span class="expect-form__select-base-text">Блюдо</span>
+                    <button class="expect-form__select-base-btn">
+                      <span class="expect-form__select-base-btn-text">Выбрать...</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__select-base-icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <form action="#" id="distributions-form-2" class="expect-form expect-form--none" method="GET">
+               
+                <div class="expect-form__choice-block">
+                  <div class="expect-form__checkbox checkbox">
+                    <input id="checkbox-32" class="expect-form__checkbox--checked expect-form__checkbox-input checkbox-input"
+                      type="checkbox" name="compare">
+                    <label for="checkbox-32" class="expect-form__checkbox-text checkbox-text"></label>
+                  </div>
+                  <div class="expect-form__period">
+                    <span class="expect-form__text">Выберите период:</span>
+                    <button class="expect-form__btn-period expect-form__btn-period--date">
+                      <img src="../public/assets/images/сalendar-icon.svg" class="expect-form__icon-calendar" alt="calendar"> 
+                      <span class="expect-form__date-start">Aug 1, 2016</span>
+                      <span class="expect-form__date-dash">-</span>
+                      <span class="expect-form__date-finish">Aug 13, 2016</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                  <div class="expect-form__choice-base">
+                    <span class="expect-form__choice-base-text">Выберите базу:</span>
+                    <button class="expect-form__choice-base-btn">
+                      <span class="expect-form__choice-base-btn-text">RFM_name</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__choice-base-icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                </div>
+
+                <div class="expect-form__amount">
+                  <div class="expect-form__amount-item expect-form__amount-item--first">
+                      <span class="expect-form__amount-item-text">Сумма продаж</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="1" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="2" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                  <div class="expect-form__amount-item">
+                      <span class="expect-form__amount-item-text">Средний чек</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="3" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="4" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                  <div class="expect-form__amount-item">
+                      <span class="expect-form__amount-item-text">Количество покупок</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="5" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="6" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                  <div class="expect-form__amount-item">
+                      <span class="expect-form__amount-item-text expect-form__amount-item-text--long">Количество дней без покупок</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="7" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="8" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                  <div class="expect-form__amount-item expect-form__amount-item--last">
+                      <span class="expect-form__amount-item-text">Время заказа</span>
+                      <div class="expect-form__amount-item-wrapper">
+                        <input tabindex="9" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--from" name="from" placeholder="от">
+                        <input tabindex="10" type="text" class="expect-form__amount-item-input expect-form__amount-item-input--to" name="to" placeholder="до">
+                      </div>
+                  </div>
+                </div>
+
+                <div class="expect-form__select">
+                  <div class="expect-form__select-base">
+                    <span class="expect-form__select-base-text">Торговая точка</span>
+                    <button class="expect-form__select-base-btn">
+                      <span class="expect-form__select-base-btn-text">Выбрать...</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__select-base-icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                  <div class="expect-form__select-base">
+                    <span class="expect-form__select-base-text">Категория блюда</span>
+                    <button class="expect-form__select-base-btn">
+                      <span class="expect-form__select-base-btn-text">Выбрать...</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__select-base-icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                  <div class="expect-form__select-base">
+                    <span class="expect-form__select-base-text">Блюдо</span>
+                    <button class="expect-form__select-base-btn">
+                      <span class="expect-form__select-base-btn-text">Выбрать...</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg" class="expect-form__select-base-icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                </div>
+              </form>
+              <div class="distributions__add-block">
+                <button class="distributions__add-block-btn">+ Добавить еще</button>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </main>
+    <!--main-frame END-->
+  </div>
+</body>
+
+</html>

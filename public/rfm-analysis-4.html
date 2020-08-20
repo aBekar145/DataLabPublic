@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DataLab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
+</head>
+
+<body>
+  <div class="page-wrap-frame">
+    <!--main-header-frame-->
+    <header class="main-header-frame">
+      <div class="main-header-frame__logo-frame">
+        <img src="../public/assets/images/logo-main.svg" class="main-header-frame__logo-frame-img" alt="logo">
+      </div>
+
+      <div class="main-header-frame__avatar">
+        <div сlass="main-header-frame__avatar-logo">
+          <img src="../public/assets/images/company-avatar.svg" alt="avatar"
+            class="main-header-frame__avatar-logo-icon">
+        </div>
+
+        <div class="main-header-frame__avatar-text">
+          <p class="main-header-frame__avatar-title">Garage food&coffee</p>
+          <a href="#" class="main-header-frame__settings">настройка рабочей области</a>
+        </div>
+      </div>
+    </header>
+    <!--main-header-frame END-->
+    <!--main-frame-->
+    <main class="main-frame">
+      <aside class="main-menu">
+        <div class="main-menu__block">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-1-grey.svg"
+                  class="main-menu__item-icon" alt="icon-1">Управление данными</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-2.svg"
+                  class="main-menu__item-icon" alt="icon-2">Панель KPI</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link main-menu__link--active"><img
+                  src="../public/assets/images/icon-3-red.svg" class="main-menu__item-icon" alt="icon-3">RFM анализ</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-4.svg"
+                  class="main-menu__item-icon" alt="icon-4">Эффективность акций</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-5.svg"
+                  class="main-menu__item-icon" alt="icon-5">Рассылки</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="main-menu__accord">
+          <div class="accord">
+            <h3 class="accord__item-title">
+              <a href="#profile" class="accord__item-link">Команда
+                <img src="../public/assets/images/dropdown-icon-down.svg"
+                  class="accord__dropdown-icon-corner accord__dropdown-icon-corner--up" alt="icon-corner">
+              </a>
+            </h3>
+
+            <ul id="profile" class="accord__submenu">
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-1.png"
+                    class="accord__submenu-foto" alt="foto-1">Мария Вишневская</a>
+              </li>
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-2.png"
+                    class="accord__submenu-foto" alt="foto-2">Петр Елфимов</a>
+              </li>
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-3.png"
+                    class="accord__submenu-foto" alt="foto-3">Надежда Бабкина</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-menu__block-help">
+          <button class="main-menu__block-btn-help">Нужна помощь?</button>
+        </div>
+      </aside>
+
+      <section class="main-content">
+        <div class="main-content-inner">
+          <section class="expand-panel-wrap">
+            <div class="expand-panel">
+              <button class="expand-panel__btn">Развернуть панель</button>
+            </div>
+          </section>
+
+          <section class="calculate-range-wrap calculate-range-wrap--none">
+            <div class="calculate-range">
+              <h2 class="calculate-range__title">Задайте диапазоны вручную либо воспользуйтесь функцией автозаполнения
+              </h2>
+              <div class="calculate-range__inner-block">
+                <div class="calculate-range__form-wrapper">
+                  <form action="#" class="fill-form" method="GET">
+                    <div class="fill-form__data-table-wrapper">
+                      <table class="fill-form__data-table">
+                        <tr class="fill-form__data-row">
+                          <th class="fill-form__data-subtitle fill-form__data-subtitle--main"></th>
+                          <th class="fill-form__data-subtitle">1</th>
+                          <th class="fill-form__data-subtitle">2</th>
+                          <th class="fill-form__data-subtitle">3</th>
+                          <th class="fill-form__data-subtitle">4</th>
+                          <th class="fill-form__data-subtitle">5</th>
+                        </tr>
+                        <tr class="fill-form__data-row">
+                          <th class="fill-form__data-subtitle fill-form__data-subtitle--main">R</th>
+                          <td class="fill-form__data-value">100</td>
+                          <td class="fill-form__data-value">100</td>
+                          <td class="fill-form__data-value">100</td>
+                          <td class="fill-form__data-value">100</td>
+                          <td class="fill-form__data-value">7</td>
+                        </tr>
+                        <tr class="fill-form__data-row">
+                          <th class="fill-form__data-subtitle fill-form__data-subtitle--main">F</th>
+                          <td class="fill-form__data-value">1</td>
+                          <td class="fill-form__data-value">4</td>
+                          <td class="fill-form__data-value">25</td>
+                          <td class="fill-form__data-value">30</td>
+                          <td class="fill-form__data-value">100</td>
+                        </tr>
+                        <tr class="fill-form__data-row">
+                          <th class="fill-form__data-subtitle fill-form__data-subtitle--main">M</th>
+                          <td class="fill-form__data-value">20</td>
+                          <td class="fill-form__data-value">40</td>
+                          <td class="fill-form__data-value">100</td>
+                          <td class="fill-form__data-value">100</td>
+                          <td class="fill-form__data-value">100</td>
+                        </tr>
+                      </table>
+                    </div>
+                    <button class="fill-form__btn-drop">Сбросить</button>
+                    <div class="fill-form__block-btn">
+                      <button class="fill-form__btn-autofill">Автозаполнение</button>
+                      <button class="fill-form__btn-calculate">Рассчитать</button>
+                    </div>
+                  </form>
+                </div>
+                <div class="calculate-range__information-examples">
+                  <div class="calculate-range__information-block">
+                    <h3 class="calculate-range__information-subtitle"><span
+                        class="calculate-range__information-subtitle-marker">R</span> - количество
+                      <span class="calculate-range__information-subtitle-marker">дней</span> от последней покупки
+                    </h3>
+                    <p class="calculate-range__information-example">Например:
+                      R1 <span class="calculate-range__information-example-cell">100</span> - 100 и более дней от
+                      текущей
+                      даты без покупок</p>
+                    <p class="calculate-range__information-example calculate-range__information-example--indent">R5
+                      <span class="calculate-range__information-example-cell">7</span> - 7 и менее дней от текущей даты
+                      без
+                      покупок</p>
+                  </div>
+                  <div class="calculate-range__information-block">
+                    <h3 class="calculate-range__information-subtitle"><span
+                        class="calculate-range__information-subtitle-marker">F</span> - количество
+                      <span class="calculate-range__information-subtitle-marker">покупок</span>, которые совершил клиент
+                      за период
+                    </h3>
+                    <p class="calculate-range__information-example">Например:
+                      F1 <span class="calculate-range__information-example-cell">1</span> - 1 покупка за период</p>
+                    <p class="calculate-range__information-example calculate-range__information-example--indent">F2
+                      <span class="calculate-range__information-example-cell">4</span> - от 2 до 4 покупок за период</p>
+                  </div>
+                  <div class="calculate-range__information-block">
+                    <h3 class="calculate-range__information-subtitle"><span
+                        class="calculate-range__information-subtitle-marker">M</span> - накопленная
+                      <span class="calculate-range__information-subtitle-marker">сумма</span> покупок за период
+                    </h3>
+                    <p class="calculate-range__information-example ">Например:
+                      M1 <span class="calculate-range__information-example-cell">20</span> - сумма покупок 20 и менее
+                      рублей за период</p>
+                    <p class="calculate-range__information-example calculate-range__information-example--indent">M2
+                      <span class="calculate-range__information-example-cell">40</span> - сумма покупок от 21 до 40
+                      рублей
+                      за период</p>
+                  </div>
+                </div>
+              </div>
+              <div class="calculate-range__btn-collapse-wrap">
+                <button class="calculate-range__btn-collapse">Cвернуть панель</button>
+              </div>
+            </div>
+          </section>
+
+          <section class="analysis-table-wrap">
+            <div class="analysis-table">
+
+              <div class="analysis-table__choice">
+                <div class="analysis-table__choice-item">
+                  <button class="analysis-table__choice-item-btn">
+                    <img src="../public/assets/images/сalendar-icon.svg" class="analysis-table__icon-calendar"
+                      alt="calendar">
+                    <span class="analysis-table__choice-item-btn-text">Выберите период</span>
+                    <img src="../public/assets/images/dropdown-icon-down.svg" class="analysis-table__icon-dropdown"
+                      alt="dropdown">
+                  </button>
+                </div>
+                <div class="analysis-table__choice-block">
+                  <div class="analysis-table__export-item">
+                    <button class="analysis-table__export-btn">
+                      <img src="../public/assets/images/export-icon-green.svg" class="analysis-table__export-icon"
+                        alt="calendar">
+                      <span
+                        class="analysis-table__export-btn-text analysis-table__export-btn-text--color">Сохранить</span>
+                    </button>
+                  </div>
+                  <div class="analysis-table__sort-item">
+                    <button class="analysis-table__sort-item-btn">
+                      <span class="analysis-table__sort-item-btn-text">Сортировать от большего к меньшему</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg"
+                        class="analysis-table__sort-icon-dropdown" alt="dropdown">
+                    </button>
+                  </div>
+                </div>
+              </div>
+
+              <table class="analysis-table__body">
+                <tr class="analysis-table__information-row">
+                  <th
+                    class="analysis-table__information-item-subtitle analysis-table__information-item-subtitle--checkbox">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-10"
+                        class="analysis-table__checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-10" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </th>
+                  <th class="analysis-table__information-item-subtitle">
+                    <button class="analysis-table__information-item-subtitle-btn">
+                      <span class="analysis-table__information-item-subtitle-btn-text">R</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg"
+                        class="analysis-table__information-item-subtitle-icon-dropdown" alt="dropdown">
+                    </button>
+                  </th>
+                  <th class="analysis-table__information-item-subtitle">
+                    <button class="analysis-table__information-item-subtitle-btn">
+                      <span class="analysis-table__information-item-subtitle-btn-text">F</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg"
+                        class="analysis-table__information-item-subtitle-icon-dropdown" alt="dropdown">
+                    </button>
+                  </th>
+                  <th class="analysis-table__information-item-subtitle">
+                    <button class="analysis-table__information-item-subtitle-btn">
+                      <span class="analysis-table__information-item-subtitle-btn-text">M</span>
+                      <img src="../public/assets/images/dropdown-icon-down.svg"
+                        class="analysis-table__information-item-subtitle-icon-dropdown" alt="dropdown">
+                    </button>
+                  </th>
+                  <th
+                    class="analysis-table__information-item-subtitle analysis-table__information-item-subtitle--quantity">
+                    Количество клиентов в сегменте
+                  </th>
+                  <th class="analysis-table__information-item-subtitle analysis-table__information-item-subtitle--sum">
+                    Сумма продаж клиентов
+                  </th>
+                  <th
+                    class="analysis-table__information-item-subtitle analysis-table__information-item-subtitle--quantity">
+                    Количество чеков
+                  </th>
+                  <th class="analysis-table__information-item-subtitle analysis-table__information-item-subtitle--sum">
+                    Средний чек
+                  </th>
+                  <th class="analysis-table__information-item-subtitle analysis-table__information-item-subtitle--sum">
+                    Средняя продажа
+                  </th>
+                  <th
+                    class="analysis-table__information-item-subtitle analysis-table__information-item-subtitle--quantity">
+                    Среднее количество визитов
+                  </th>
+                  <th
+                    class="analysis-table__information-item-subtitle analysis-table__information-item-subtitle--quantity">
+                    Среднее количество категорий
+                  </th>
+                  <th class="analysis-table__information-item-subtitle">
+                    SKU
+                  </th>
+                  <th
+                    class="analysis-table__information-item-subtitle analysis-table__information-item-subtitle--general">
+                    Доля<br> в общей клиентской базе
+                  </th>
+                </tr>
+                <tr class="analysis-table__choice-row analysis-table__choice-row--mark">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-11"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        checked type="checkbox" name="compare">
+                      <label for="checkbox-11" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R5
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F5
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+                <tr class="analysis-table__choice-row">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-12"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-12" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R1
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F4
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M1
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+                <tr class="analysis-table__choice-row">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-13"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-13" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R1
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F4
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M1
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+                <tr class="analysis-table__choice-row">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-14"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-14" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R1
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F4
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M1
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+                <tr class="analysis-table__choice-row">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-15"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-15" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R1
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F4
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M1
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+                <tr class="analysis-table__choice-row">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-16"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-16" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R1
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F4
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M1
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+                <tr class="analysis-table__choice-row">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-17"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-17" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R1
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F4
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M1
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+                <tr class="analysis-table__choice-row">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-18"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-18" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R1
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F4
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M1
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+                <tr class="analysis-table__choice-row">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-19"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-19" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R1
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F4
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M1
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+                <tr class="analysis-table__choice-row">
+                  <td class="analysis-table__information-item">
+                    <div class="analysis-table__checkbox checkbox">
+                      <input id="checkbox-20"
+                        class="analysis-table__checkbox-input--checked checkbox-input--checked analysis-table__checkbox-input checkbox-input"
+                        type="checkbox" name="compare">
+                      <label for="checkbox-20" class="analysis-table__checkbox-text checkbox-text"></label>
+                    </div>
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    R1
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    F4
+                  </td>
+                  <td class="analysis-table__information-item analysis-table__information-item--title">
+                    M1
+                  </td>
+                  <td class="analysis-table__information-item">
+                    8000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    50000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40000
+                  </td>
+                  <td class="analysis-table__information-item">
+                    40
+                  </td>
+                  <td class="analysis-table__information-item">
+                    20
+                  </td>
+                  <td class="analysis-table__information-item">
+                    5
+                  </td>
+                  <td class="analysis-table__information-item">
+                    4
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10
+                  </td>
+                  <td class="analysis-table__information-item">
+                    10%
+                  </td>
+                </tr>
+              </table>
+            </div>
+
+          </section>
+        </div>
+      </section>
+    </main>
+    <!--main-frame END-->
+  </div>
+</body>
+
+</html>

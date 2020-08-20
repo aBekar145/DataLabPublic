@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>DataLab</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
+  </head>
+
+  <body>
+    <div class="page-wrap">
+      <!--main-header-->
+      <header class="main-header">
+        <div class="main-header__block-wrap">
+          <div class="main-header__logo">
+            <img src="../public/assets/images/logo-main.svg" alt="logo" class="main-header__logo-img">
+          </div>
+          <div class="column">
+            <button class="column__btn-help">Нужна помощь?</button>
+            <div class="column__content">
+              <span class="column__text">Нужна помощь?</span>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--main-header END-->
+      <!--main-->
+      <main class="main-content main-content--login">
+        <div class="main-content__block-wrap">
+        <section class="registration">
+          <h1 class="registration__main-title">
+            Поздравляем!<br>
+            <span class="registration__main-title-span">
+              Регистрация прошла успешно!
+            </span>
+          </h1>
+          <p class="registration__content">
+            Вам остался последний шаг: <a href="#" class="registration__content-link">создать</a> рабочее пространство либо
+            <a href="#" class="registration__content-link">присоединиться</a> к существующему!
+          </p>
+          <div class="form-container">
+            <form action="#" class="form-container__form form-job" method="GET">
+              <h2 class="form-job__title title-form">Создать рабочее пространство</h2>
+              <div class="form-job__body-1">
+                <p class="form-job__text-input">В какой Компании вы работаете?</p>
+                <p class="form-job__text-explanation">(так будет называться ваше рабочее пространство)</p>
+                <input tabindex="1" type="text" class="form-job__input" name="job" value="">
+              </div>
+              <div class="form-job__body-2">
+                <p class="form-job__text-input form-job__text-input-phone">Ваш номер телефона?</p>
+                <input tabindex="2" type="tel" class="form-job__input form-job__input-phone" name="phone" value="">
+              </div>
+              <button class="form-job__btn-create btn">Создать</button>
+            </form>
+            <form action="#" class="form-container__form form-container__form-join" method="GET">
+              <h2 class="form-join__title title-form">Присоединиться</h2>
+              <div class="form-join__body">
+                <p class="form-join__text-input">Пожалуйста, введите код, который передал вам коллега </p>
+                <input tabindex="3" type="password" class="form-join__input-pass" name="userpass" value="">
+              </div>
+              <button class="form-join__btn-mix btn">Присоединиться</button>
+            </form>
+            <hr class="form-container__line">
+          </div>
+        </section>
+        </div>
+      </main>
+      <!--main END-->
+      <!--main-footer-->
+      <footer class="main-footer">
+        <div class="main-footer__block-wrap-footer">
+          <p class="main-footer__confidentiality ">Политика конфиденциальности</p>
+        </div>
+      </footer>
+      <!--main-footer END-->
+    </div>
+  </body>
+
+</html>

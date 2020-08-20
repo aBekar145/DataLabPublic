@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>DataLab</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="assets/stylesheets/style.css" type="text/css">
+</head>
+
+<body>
+  <div class="page-wrap-frame">
+    <!--main-header-frame-->
+    <header class="main-header-frame">
+      <div class="main-header-frame__logo-frame">
+        <img src="../public/assets/images/logo-main.svg" class="main-header-frame__logo-frame-img" alt="logo">
+      </div>
+
+      <div class="main-header-frame__avatar">
+        <div сlass="main-header-frame__avatar-logo">
+          <img src="../public/assets/images/company-avatar.svg" alt="avatar"
+            class="main-header-frame__avatar-logo-icon">
+        </div>
+
+        <div class="main-header-frame__avatar-text">
+          <p class="main-header-frame__avatar-title">Garage food&coffee</p>
+          <a href="#" class="main-header-frame__settings">настройка рабочей области</a>
+        </div>
+      </div>
+    </header>
+    <!--main-header-frame END-->
+    <!--main-frame-->
+    <main class="main-frame">
+      <aside class="main-menu">
+        <div class="main-menu__block">
+          <ul class="main-menu__list">
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link main-menu__link--active"><img src="../public/assets/images/icon-1.svg"
+                  class="main-menu__item-icon" alt="icon-1">Управление данными</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-2.svg"
+                  class="main-menu__item-icon" alt="icon-2">Панель KPI</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-3.svg"
+                  class="main-menu__item-icon" alt="icon-3">RFM анализ</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-4.svg"
+                  class="main-menu__item-icon" alt="icon-4">Эффективность акций</a>
+            </li>
+            <li class="main-menu__item">
+              <a href="#" class="main-menu__link"><img src="../public/assets/images/icon-5.svg"
+                  class="main-menu__item-icon" alt="icon-5">Рассылки</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="main-menu__accord">
+          <div class="accord__nav">
+            <h3 class="accord__item-title">
+              <a href="#profile" class="accord__item-link">Команда
+                <img src="../public/assets/images/dropdown-icon-down.svg"
+                  class="accord__dropdown-icon-corner accord__dropdown-icon-corner--up" alt="icon-corner">
+              </a>
+            </h3>
+
+            <ul id="profile" class="accord__submenu">
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-1.png"
+                    class="accord__submenu-foto" alt="foto-1">Мария Вишневская</a>
+              </li>
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-2.png"
+                    class="accord__submenu-foto" alt="foto-2">Петр Елфимов</a>
+              </li>
+              <li class="accord__submenu-item">
+                <a href="#" class="accord__submenu-link"><img src="../public/assets/images/foto-3.png"
+                    class="accord__submenu-foto" alt="foto-3">Надежда Бабкина</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="main-menu__block-help">
+          <button class="main-menu__block-btn-help">Нужна помощь?</button>
+        </div>
+      </aside>
+
+      <section class="main-content">
+        <div class="main-content-inner">
+          <section class="stocks-wrap">
+
+            <div class="stocks">
+              <div сlass="stocks-form-wrap">
+                <form class="form-analysis">
+                  <div class="form-analysis__select">
+                    <div class="form-analysis__choice form-analysis__choice--period">
+                      <span class="form-analysis__choice-text">Выберите период:</span>
+                      <button class="form-analysis__choice-btn form-analysis__choice-btn--date">
+                        <img src="../public/assets/images/сalendar-icon.svg" class="form-analysis__choice-icon-calendar"
+                          alt="calendar">
+                        <span class="form-analysis__choice-date-start">Aug 1, 2016</span>
+                        <span class="form-analysis__choice-date-dash">-</span>
+                        <span class="form-analysis__choice-date-finish">Aug 13, 2016</span>
+                        <img src="../public/assets/images/dropdown-icon-down.svg"
+                          class="form-analysis__choice-icon-dropdown" alt="dropdown">
+                      </button>
+                    </div>
+
+                    <div class="form-analysis__choice">
+                      <span class="form-analysis__choice-text">Выберите товар:</span>
+                      <button class="form-analysis__choice-btn">
+                        <span class="form-analysis__choice-btn-text">...</span>
+                        <img src="../public/assets/images/dropdown-icon-down.svg"
+                          class="form-analysis__choice-icon-dropdown" alt="dropdown">
+                      </button>
+                    </div>
+                    <div class="form-analysis__choice">
+                      <span class="form-analysis__choice-text">Выберите категорию:</span>
+                      <button class="form-analysis__choice-btn">
+                        <span class="form-analysis__choice-btn-text">...</span>
+                        <img src="../public/assets/images/dropdown-icon-down.svg"
+                          class="form-analysis__choice-icon-dropdown" alt="dropdown">
+                      </button>
+                    </div>
+                    <div class="form-analysis__choice">
+                      <span class="form-analysis__choice-text">Выберите сегмент:</span>
+                      <button class="form-analysis__choice-btn">
+                        <span class="form-analysis__choice-btn-text">...</span>
+                        <img src="../public/assets/images/dropdown-icon-down.svg"
+                          class="form-analysis__choice-icon-dropdown" alt="dropdown">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="stocks__btn-wrapper">
+                    <button class="stocks__btn-calculate" type="submit">Рассчитать</button>
+                  </div>
+                </form>
+              </div>
+
+              <div class="stocks__block-info">
+                <h2 class="stocks__block-title">Размер клиентской базы: <span
+                    class="stocks__block-title-number">1000</span></h2>
+                <div class="stocks__block-list-wrapper">
+                  <ul class="stocks__block-list">
+                    <li class="stocks__list-item">
+                      <h3 class="stocks__list-item-subtitle">Продажи</h3>
+                      <div class="stocks__list-item-before">
+                        <span class="stocks__list-item-before-text stocks__list-item-style">До</span>
+                        <div class="stocks__list-item-before-block">
+                          <span class="stocks__list-item-before-number stocks__list-item-style">3,790</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-ontime">
+                        <span class="stocks__list-item-ontime-text stocks__list-item-style">Во время</span>
+                        <div class="stocks__list-item-ontime-block">
+                          <span class="stocks__list-item-ontime-number stocks__list-item-style">5,890</span>
+                          <img src="../public/assets/images/arrow-icon-green.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-after">
+                        <span class="stocks__list-item-after-text stocks__list-item-style">После</span>
+                        <div class="stocks__list-item-after-block">
+                          <span class="stocks__list-item-after-number stocks__list-item-style">4,890</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon stocks__list-item-icon--none">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-total">
+                        <span class="stocks__list-item-total-text">Итоговый прирост:</span>
+                        <span class="stocks__list-item-total-number">28</span>
+                      </div>
+                    </li>
+
+                    <li class="stocks__list-item">
+                      <h3 class="stocks__list-item-subtitle">Чеки</h3>
+                      <div class="stocks__list-item-before">
+                        <span class="stocks__list-item-before-text stocks__list-item-style">До</span>
+                        <div class="stocks__list-item-before-block">
+                          <span class="stocks__list-item-before-number stocks__list-item-style">3,790</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon stocks__list-item-icon--none">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-ontime">
+                        <span class="stocks__list-item-ontime-text stocks__list-item-style">Во время</span>
+                        <div class="stocks__list-item-ontime-block">
+                          <span class="stocks__list-item-ontime-number stocks__list-item-style">5,890</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-after">
+                        <span class="stocks__list-item-after-text stocks__list-item-style">После</span>
+                        <div class="stocks__list-item-after-block">
+                          <span class="stocks__list-item-after-number stocks__list-item-style">4,890</span>
+                          <img src="../public/assets/images/arrow-icon-green.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-total">
+                        <span class="stocks__list-item-total-text">Итоговый прирост:</span>
+                        <span class="stocks__list-item-total-number">28</span>
+                      </div>
+                    </li>
+
+                    <li class="stocks__list-item">
+                      <h3 class="stocks__list-item-subtitle">Клиенты</h3>
+                      <div class="stocks__list-item-before">
+                        <span class="stocks__list-item-before-text stocks__list-item-style">До</span>
+                        <div class="stocks__list-item-before-block">
+                          <span class="stocks__list-item-before-number stocks__list-item-style">3,790</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon stocks__list-item-icon--none">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-ontime">
+                        <span class="stocks__list-item-ontime-text stocks__list-item-style">Во время</span>
+                        <div class="stocks__list-item-ontime-block">
+                          <span class="stocks__list-item-ontime-number stocks__list-item-style">5,890</span>
+                          <img src="../public/assets/images/arrow-icon-green.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-after">
+                        <span class="stocks__list-item-after-text stocks__list-item-style">После</span>
+                        <div class="stocks__list-item-after-block">
+                          <span class="stocks__list-item-after-number stocks__list-item-style">4,890</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-total">
+                        <span class="stocks__list-item-total-text">Итоговый прирост:</span>
+                        <span class="stocks__list-item-total-number stocks__list-item-total-number--red">-25</span>
+                      </div>
+                    </li>
+                    <li class="stocks__list-item">
+                      <div class="stocks__list-item-block-conversion">
+                        <h4 class="stocks__list-item-conversion-subtitle">Конверсия:</h4>
+                        <div class="stocks__list-item-conversion-column">
+                          <span
+                            class="stocks__list-item-conversion stocks__list-item-conversion--1 stocks__list-item-conversion--1--none">+23%</span>
+                          <span class="stocks__list-item-conversion stocks__list-item-conversion--2">+ 23%</span>
+                          <span class="stocks__list-item-conversion stocks__list-item-conversion--3">- 6%</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section class="stocks-wrap">
+
+            <div class="stocks">
+              <div сlass="stocks-form-wrap">
+                <form class="form-analysis">
+                  <div class="form-analysis__select">
+                    <div class="form-analysis__choice form-analysis__choice--period">
+                      <span class="form-analysis__choice-text">Выберите период:</span>
+                      <button class="form-analysis__choice-btn form-analysis__choice-btn--date">
+                        <img src="../public/assets/images/сalendar-icon.svg" class="form-analysis__choice-icon-calendar"
+                          alt="calendar">
+                        <span class="form-analysis__choice-date-start">Aug 1, 2016</span>
+                        <span class="form-analysis__choice-date-dash">-</span>
+                        <span class="form-analysis__choice-date-finish">Aug 13, 2016</span>
+                        <img src="../public/assets/images/dropdown-icon-down.svg"
+                          class="form-analysis__choice-icon-dropdown" alt="dropdown">
+                      </button>
+                    </div>
+
+                    <div class="form-analysis__choice">
+                      <span class="form-analysis__choice-text">Выберите товар:</span>
+                      <button class="form-analysis__choice-btn">
+                        <span class="form-analysis__choice-btn-text">...</span>
+                        <img src="../public/assets/images/dropdown-icon-down.svg"
+                          class="form-analysis__choice-icon-dropdown" alt="dropdown">
+                      </button>
+                    </div>
+                    <div class="form-analysis__choice">
+                      <span class="form-analysis__choice-text">Выберите категорию:</span>
+                      <button class="form-analysis__choice-btn">
+                        <span class="form-analysis__choice-btn-text">...</span>
+                        <img src="../public/assets/images/dropdown-icon-down.svg"
+                          class="form-analysis__choice-icon-dropdown" alt="dropdown">
+                      </button>
+                    </div>
+                    <div class="form-analysis__choice">
+                      <span class="form-analysis__choice-text">Выберите сегмент:</span>
+                      <button class="form-analysis__choice-btn">
+                        <span class="form-analysis__choice-btn-text">...</span>
+                        <img src="../public/assets/images/dropdown-icon-down.svg"
+                          class="form-analysis__choice-icon-dropdown" alt="dropdown">
+                      </button>
+                    </div>
+                  </div>
+                  <div class="stocks__btn-wrapper">
+                    <button class="stocks__btn-calculate" type="submit">Рассчитать</button>
+                  </div>
+                </form>
+              </div>
+
+              <div class="stocks__block-info">
+                <h2 class="stocks__block-title">Размер клиентской базы: <span
+                    class="stocks__block-title-number">1000</span></h2>
+                <div class="stocks__block-list-wrapper">
+                  <ul class="stocks__block-list">
+                    <li class="stocks__list-item">
+                      <h3 class="stocks__list-item-subtitle">Продажи</h3>
+                      <div class="stocks__list-item-before">
+                        <span class="stocks__list-item-before-text stocks__list-item-style">До</span>
+                        <div class="stocks__list-item-before-block">
+                          <span class="stocks__list-item-before-number stocks__list-item-style">3,790</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-ontime">
+                        <span class="stocks__list-item-ontime-text stocks__list-item-style">Во время</span>
+                        <div class="stocks__list-item-ontime-block">
+                          <span class="stocks__list-item-ontime-number stocks__list-item-style">5,890</span>
+                          <img src="../public/assets/images/arrow-icon-green.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-after">
+                        <span class="stocks__list-item-after-text stocks__list-item-style">После</span>
+                        <div class="stocks__list-item-after-block">
+                          <span class="stocks__list-item-after-number stocks__list-item-style">4,890</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon stocks__list-item-icon--none">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-total">
+                        <span class="stocks__list-item-total-text">Итоговый прирост:</span>
+                        <span class="stocks__list-item-total-number">28</span>
+                      </div>
+                    </li>
+
+                    <li class="stocks__list-item">
+                      <h3 class="stocks__list-item-subtitle">Чеки</h3>
+                      <div class="stocks__list-item-before">
+                        <span class="stocks__list-item-before-text stocks__list-item-style">До</span>
+                        <div class="stocks__list-item-before-block">
+                          <span class="stocks__list-item-before-number stocks__list-item-style">3,790</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon stocks__list-item-icon--none">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-ontime">
+                        <span class="stocks__list-item-ontime-text stocks__list-item-style">Во время</span>
+                        <div class="stocks__list-item-ontime-block">
+                          <span class="stocks__list-item-ontime-number stocks__list-item-style">5,890</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-after">
+                        <span class="stocks__list-item-after-text stocks__list-item-style">После</span>
+                        <div class="stocks__list-item-after-block">
+                          <span class="stocks__list-item-after-number stocks__list-item-style">4,890</span>
+                          <img src="../public/assets/images/arrow-icon-green.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-total">
+                        <span class="stocks__list-item-total-text">Итоговый прирост:</span>
+                        <span class="stocks__list-item-total-number">28</span>
+                      </div>
+                    </li>
+
+                    <li class="stocks__list-item">
+                      <h3 class="stocks__list-item-subtitle">Клиенты</h3>
+                      <div class="stocks__list-item-before">
+                        <span class="stocks__list-item-before-text stocks__list-item-style">До</span>
+                        <div class="stocks__list-item-before-block">
+                          <span class="stocks__list-item-before-number stocks__list-item-style">3,790</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon stocks__list-item-icon--none">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-ontime">
+                        <span class="stocks__list-item-ontime-text stocks__list-item-style">Во время</span>
+                        <div class="stocks__list-item-ontime-block">
+                          <span class="stocks__list-item-ontime-number stocks__list-item-style">5,890</span>
+                          <img src="../public/assets/images/arrow-icon-green.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-after">
+                        <span class="stocks__list-item-after-text stocks__list-item-style">После</span>
+                        <div class="stocks__list-item-after-block">
+                          <span class="stocks__list-item-after-number stocks__list-item-style">4,890</span>
+                          <img src="../public/assets/images/arrow-icon-red.svg" alt="arrow"
+                            class="stocks__list-item-icon">
+                        </div>
+                      </div>
+                      <div class="stocks__list-item-total">
+                        <span class="stocks__list-item-total-text">Итоговый прирост:</span>
+                        <span class="stocks__list-item-total-number stocks__list-item-total-number--red">-25</span>
+                      </div>
+                    </li>
+                    <li class="stocks__list-item">
+                      <div class="stocks__list-item-block-conversion">
+                        <h4 class="stocks__list-item-conversion-subtitle">Конверсия:</h4>
+                        <div class="stocks__list-item-conversion-column">
+                          <span
+                            class="stocks__list-item-conversion stocks__list-item-conversion--1 stocks__list-item-conversion--1--none">+23%</span>
+                          <span class="stocks__list-item-conversion stocks__list-item-conversion--2">+ 23%</span>
+                          <span class="stocks__list-item-conversion stocks__list-item-conversion--3">- 6%</span>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="add-section">
+            <button class="add-section__btn">+ Добавить еще</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!--main-frame END-->
+  </div>
+</body>
+
+</html>
